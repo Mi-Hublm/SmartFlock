@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "SmartFlock",
-    "slug": "SmartFlock",
+    "slug": "smartflock",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -36,6 +36,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "945567f1-5e04-4edd-8ef2-dfd2abf8f26a"
+      }
+    },
+    "owner": "officialboss"
   }
 }
